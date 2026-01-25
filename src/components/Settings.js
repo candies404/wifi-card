@@ -20,6 +20,7 @@ export const Settings = (props) => {
     { label: 'WEP', value: 'WEP' },
   ];
   const eapMethods = [{ label: 'PWD', value: 'PWD' }];
+
   const langSelectDefaultValue = () => {
     const t = Translations.filter((t) => t.id === i18n.language);
     if (t.length !== 1) {
